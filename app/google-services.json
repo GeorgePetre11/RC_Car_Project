@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1093474594962",
+    "project_id": "arduinorcproject",
+    "storage_bucket": "arduinorcproject.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1093474594962:android:942b4cd5a146dbff3db64b",
+        "android_client_info": {
+          "package_name": "com.example.arduino_rc_car_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLlyrMw5FAfYmB5wzYfnCLtF9y_4-U48o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

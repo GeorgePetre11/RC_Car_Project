@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color of the popup -->
+    <solid android:color="#FFFFFF" />
+
+    <!-- Rounded corners -->
+    <corners android:radius="16dp" />
+
+    <!-- Border for the popup (optional, remove if not needed) -->
+    <stroke
+        android:width="2dp"
+        android:color="#DDDDDD" />
+
+    <!-- Add padding inside the popup (optional) -->
+    <padding
+        android:left="16dp"
+        android:top="16dp"
+        android:right="16dp"
+        android:bottom="16dp" />
+
+    <!-- Shadow or elevation effect -->
+</shape>

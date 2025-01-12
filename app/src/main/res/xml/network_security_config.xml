@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.4.1</domain>
+        <domain includeSubdomains="true">192.168.1.137</domain>
+        <domain includeSubdomains="true">192.168.74.219</domain>
+        <domain includeSubdomains="true">192.168.0.178</domain>
+        <domain includeSubdomains="true">192.168.0.179</domain>
+<!--        predefined ips, as there is an issue in scanning the ips.-->
+<!--        The issue lies in Android's Cleartext HTTP restrictions, which block communication with devices not explicitly defined in the network-security-config.-->
+
+    </domain-config>
+</network-security-config>

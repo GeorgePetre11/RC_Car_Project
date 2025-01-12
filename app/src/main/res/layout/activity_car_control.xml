@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    tools:context=".ui.CarControlActivity">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RC Car Control"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:paddingBottom="32dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <!-- Forward Button -->
+    <Button
+        android:id="@+id/forwardButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Forward"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:textSize="18sp"/>
+
+    <!-- Left, Stop, Right Button Row -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/testConnectionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Test Connection"
+            android:layout_gravity="center_horizontal"
+            android:padding="12dp"/>
+
+
+        <Button
+            android:id="@+id/leftButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Left"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/rightButton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Right"
+            android:padding="12dp"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+    <!-- Backward Button -->
+    <Button
+        android:id="@+id/backwardButton"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Backward"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center_horizontal"
+        android:padding="12dp"
+        android:textSize="18sp"/>
+
+    <!-- Status Label (Optional) -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: Connected"
+        android:textSize="16sp"
+        android:paddingTop="24dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/holo_green_dark"/>
+
+</LinearLayout>
